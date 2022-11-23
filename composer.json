@@ -1,5 +1,5 @@
 {
-    "name": "codelint/qcloud-cmq",
+    "name": "messiaqin/qcloud-cmq",
     "description": "Tencent cloud cmq queue driver for laravel",
     "keywords": [
         "PHP",
@@ -8,16 +8,9 @@
         "CMQ",
         "Laravel"
     ],
-    "homepage": "https://github.com/codelint/qcloud-cmq",
+    "homepage": "https://github.com/messiaqin/qcloud-cmq",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Ray Zhang",
-            "email": "codelint@foxmail.com",
-            "homepage": "https://github.com/codelint"
-        }
-    ],
     "scripts": {
     },
     "require-dev": {
