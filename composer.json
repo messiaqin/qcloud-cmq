@@ -11,6 +11,13 @@
     "homepage": "https://github.com/messiaqin/qcloud-cmq",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Ray Zhang",
+            "email": "codelint@foxmail.com",
+            "homepage": "https://github.com/codelint"
+        }
+    ],
     "scripts": {
     },
     "require-dev": {
