@@ -20,10 +20,6 @@
     ],
     "scripts": {
     },
-    "require": {
-        "php": "^7.4 || ^8.0",
-        "laravel/framework": "^9.11"
-    },
     "require-dev": {
     },
     "autoload": {
