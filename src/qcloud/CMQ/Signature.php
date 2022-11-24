@@ -1,4 +1,4 @@
-<?php namespace Com\Codelint\QCloud\CMQ;
+<?php namespace Messiaqin\QcloudCmq\CMQ;
 
 // define('CMQAPI_ROOT_PATH', dirname(__FILE__));
 

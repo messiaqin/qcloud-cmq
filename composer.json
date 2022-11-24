@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Messiaqin\\QloudCmq\\": "src/qcloud"
+            "Messiaqin\\QcloudCmq\\": "src/qcloud"
         }
     },
     "autoload-dev": {
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Messiaqin\\QloudCmq\\Laravel\\Providers\\QCloudCMQProvider"
+                "Messiaqin\\QcloudCmq\\Laravel\\Providers\\QCloudCMQProvider"
             ]
         }
     }

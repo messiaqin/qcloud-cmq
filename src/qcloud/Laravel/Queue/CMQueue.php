@@ -1,8 +1,8 @@
 <?php namespace Com\Codelint\QCloud\Laravel\Queue;
 
-use Com\Codelint\QCloud\CMQ\Account;
-use Com\Codelint\QCloud\CMQ\CMQExceptionBase;
-use Com\Codelint\QCloud\CMQ\Message;
+use Messiaqin\QcloudCmq\CMQ\Account;
+use Messiaqin\QcloudCmq\CMQ\CMQExceptionBase;
+use Messiaqin\QcloudCmq\CMQ\Message;
 use Illuminate\Contracts\Queue\ClearableQueue;
 use Illuminate\Contracts\Queue\Queue as QueueContract;
 

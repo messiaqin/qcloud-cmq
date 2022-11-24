@@ -1,6 +1,6 @@
-<?php namespace Com\Codelint\QCloud\Laravel\Queue;
+<?php namespace Messiaqin\QcloudCmq\Laravel\Queue;
 
-use Com\Codelint\QCloud\CMQ\Account;
+use Messiaqin\QcloudCmq\CMQ\Account;
 use Illuminate\Queue\Connectors\ConnectorInterface;
 
 /**

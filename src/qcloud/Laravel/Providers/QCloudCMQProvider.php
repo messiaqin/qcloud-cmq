@@ -1,6 +1,6 @@
-<?php namespace Com\Codelint\QCloud\Laravel\Providers;
+<?php namespace Messiaqin\QcloudCmq\Laravel\Providers;
 
-use Com\Codelint\QCloud\Laravel\Queue\CMQConnector;
+use Messiaqin\QcloudCmq\Laravel\Queue\CMQConnector;
 use Illuminate\Support\ServiceProvider;
 
 /**

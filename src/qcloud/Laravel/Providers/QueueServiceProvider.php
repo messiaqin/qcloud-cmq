@@ -1,6 +1,7 @@
-<?php namespace Com\Codelint\QCloud\Laravel\Providers;
+<?php namespace Messiaqin\QcloudCmq\Laravel\Providers;
 
-use Com\Codelint\QCloud\Laravel\Queue\CMQConnector;
+use Messiaqin\QcloudCmq\Laravel\Queue\CMQConnector;
+use Illuminate\Queue\QueueServiceProvider as QueueSProvider;
 
 /**
  * QueueServiceProvider:
@@ -8,7 +9,7 @@ use Com\Codelint\QCloud\Laravel\Queue\CMQConnector;
  * @time 16:18
  * @author Ray.Zhang <codelint@foxmail.com>
  **/
-class QueueServiceProvider extends \Illuminate\Queue\QueueServiceProvider {
+class QueueServiceProvider extends QueueSProvider {
     public function registerConnectors($manager)
     {
         parent::registerConnectors($manager);
