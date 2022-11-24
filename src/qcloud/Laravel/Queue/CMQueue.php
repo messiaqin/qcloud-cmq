@@ -1,4 +1,4 @@
-<?php namespace Com\Codelint\QCloud\Laravel\Queue;
+<?php namespace Messiaqin\QcloudCmq\Laravel\Queue;
 
 use Messiaqin\QcloudCmq\CMQ\Account;
 use Messiaqin\QcloudCmq\CMQ\CMQExceptionBase;
