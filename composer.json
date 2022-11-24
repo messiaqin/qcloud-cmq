@@ -24,11 +24,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Com\\Codelint\\QCloud\\": "src/qcloud"
+            "Messiaqin\\QloudCmq\\": "src/qcloud"
         }
     },
     "autoload-dev": {
         "psr-4": {
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Messiaqin\\QloudCmq\\Laravel\\Providers\\QCloudCMQProvider"
+            ]
         }
     }
 }
